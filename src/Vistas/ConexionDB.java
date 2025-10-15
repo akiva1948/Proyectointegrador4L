@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class ConexionDB {
     private static final String USER = "proyectoNSC";
-    private static final String PASSWORD = "proyectoNCS";
+    private static final String PASSWORD = "proyectoNSC";
     private static final String URL = "jdbc:oracle:thin:@192.168.254.215:1521:orcl";
 
     public static Connection getConnection() throws SQLException {
@@ -21,4 +21,5 @@ public class ConexionDB {
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
     
+
 }
