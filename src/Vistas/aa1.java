@@ -25,6 +25,7 @@ public class aa1 extends javax.swing.JPanel {
     public aa1(principal mainFrame) {
         this(); // Llama al anterior
         this.mainFrame = mainFrame;
+        cargarCultivos();
     }
 
     /**
@@ -465,7 +466,7 @@ public class aa1 extends javax.swing.JPanel {
     }//GEN-LAST:event_jButton16ActionPerformed
 
     private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
-        // TODO add your handling code here:
+        cargarCultivos();
     }//GEN-LAST:event_jButton18ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
